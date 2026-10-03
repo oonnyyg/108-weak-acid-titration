@@ -1,0 +1,33 @@
+{
+  "model": {
+    "description": "一元弱酸-强碱滴定，完整平衡求解（非分段近似）",
+    "temperature_c": 25.0,
+    "kw": 1e-14,
+    "assumptions": [
+      "强碱完全解离为一价阳离子",
+      "忽略活度系数与体积收缩",
+      "浓度 mol/L，体积 mL"
+    ],
+    "solver": "对数域二分法，相对精度 1e-12，上限 200 次迭代"
+  },
+  "experiments": [
+    {
+      "name": "acetic_acid_naoh",
+      "status": "ok",
+      "equivalence_volume_ml": 25.0,
+      "point_count": 13,
+      "max_abs_charge_residual_mol_per_l": 1.3003487175922146e-13,
+      "max_abs_mass_residual_mol_per_l": 0.0,
+      "max_solver_iterations": 47
+    },
+    {
+      "name": "formic_acid_koh",
+      "status": "ok",
+      "equivalence_volume_ml": 25.0,
+      "point_count": 5,
+      "max_abs_charge_residual_mol_per_l": 4.106437412332298e-14,
+      "max_abs_mass_residual_mol_per_l": 0.0,
+      "max_solver_iterations": 47
+    }
+  ]
+}
