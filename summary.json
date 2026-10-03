@@ -1,0 +1,290 @@
+{
+  "model": {
+    "temperature_C": 25.0,
+    "kw": 1e-14,
+    "solver": "bisection on charge balance, geometric midpoint",
+    "solver_relative_tolerance": 1e-12,
+    "assumptions": [
+      "strong base fully dissociates to a monovalent cation",
+      "activities equal concentrations",
+      "volumes are additive (no contraction)"
+    ]
+  },
+  "experiments": [
+    {
+      "name": "acetic-acid-naoh",
+      "acid_volume_ml": 50.0,
+      "acid_concentration_mol_L": 0.1,
+      "ka": 1.8e-05,
+      "pka": 4.7447274948966935,
+      "base_concentration_mol_L": 0.1,
+      "equivalence_volume_ml": 50.0,
+      "points": [
+        {
+          "volume_added_ml": 0.0,
+          "total_volume_ml": 50.0,
+          "concentrations_mol_L": {
+            "H+": 0.001332670976854581,
+            "OH-": 7.503727606946441e-12,
+            "HA": 0.0986673290306483,
+            "A-": 0.0013326709693516987,
+            "base_cation": 0.0
+          },
+          "ph": 2.875277060319405,
+          "charge_residual_mol_L": -8.454608541041964e-16,
+          "mass_residual_mol_L": 0.0
+        },
+        {
+          "volume_added_ml": 5.0,
+          "total_volume_ml": 55.0,
+          "concentrations_mol_L": {
+            "H+": 0.0001589076823475757,
+            "OH-": 6.2929619589613e-11,
+            "HA": 0.08165927419876498,
+            "A-": 0.009249816710325926,
+            "base_cation": 0.00909090909090909
+          },
+          "ph": 3.798855106439504,
+          "charge_residual_mol_L": 1.1206313654810174e-15,
+          "mass_residual_mol_L": 0.0
+        },
+        {
+          "volume_added_ml": 10.0,
+          "total_volume_ml": 60.0,
+          "concentrations_mol_L": {
+            "H+": 7.161493468909405e-05,
+            "OH-": 1.3963567855522823e-10,
+            "HA": 0.0665950518716101,
+            "A-": 0.01673828146172322,
+            "base_cation": 0.016666666666666666
+          },
+          "ph": 4.144996399805137,
+          "charge_residual_mol_L": -3.1363800445660672e-15,
+          "mass_residual_mol_L": 0.0
+        },
+        {
+          "volume_added_ml": 25.0,
+          "total_volume_ml": 75.0,
+          "concentrations_mol_L": {
+            "H+": 1.7980592029935642e-05,
+            "OH-": 5.561552135408632e-10,
+            "HA": 0.03331535329745899,
+            "A-": 0.03335131336920768,
+            "base_cation": 0.03333333333333333
+          },
+          "ph": 4.745196012764012,
+          "charge_residual_mol_L": 3.7470027081099033e-16,
+          "mass_residual_mol_L": 0.0
+        },
+        {
+          "volume_added_ml": 40.0,
+          "total_volume_ml": 90.0,
+          "concentrations_mol_L": {
+            "H+": 4.4977243827771196e-06,
+            "OH-": 2.223346552379339e-09,
+            "HA": 0.011106615610076503,
+            "A-": 0.04444893994547905,
+            "base_cation": 0.044444444444444446
+          },
+          "ph": 5.3470071613295715,
+          "charge_residual_mol_L": 1.6167622796103842e-15,
+          "mass_residual_mol_L": 0.0
+        },
+        {
+          "volume_added_ml": 49.0,
+          "total_volume_ml": 99.0,
+          "concentrations_mol_L": {
+            "H+": 3.6722077122329395e-07,
+            "OH-": 2.7231575073184936e-08,
+            "HA": 0.0010097610209049007,
+            "A-": 0.0494952894841456,
+            "base_cation": 0.0494949494949495
+          },
+          "ph": 6.4350727616414645,
+          "charge_residual_mol_L": 4.85722573273506e-17,
+          "mass_residual_mol_L": 0.0
+        },
+        {
+          "volume_added_ml": 49.9,
+          "total_volume_ml": 99.9,
+          "concentrations_mol_L": {
+            "H+": 3.615894822665294e-08,
+            "OH-": 2.7655671667543004e-07,
+            "HA": 0.00010034049786853544,
+            "A-": 0.04994970955218151,
+            "base_cation": 0.04994994994994995
+          },
+          "ph": 7.4417842105529814,
+          "charge_residual_mol_L": -6.938893903907228e-18,
+          "mass_residual_mol_L": 0.0
+        },
+        {
+          "volume_added_ml": 50.0,
+          "total_volume_ml": 100.0,
+          "concentrations_mol_L": {
+            "H+": 1.8971250929647385e-09,
+            "OH-": 5.2711336943904244e-06,
+            "HA": 5.269236569301061e-06,
+            "A-": 0.0499947307634307,
+            "base_cation": 0.05
+          },
+          "ph": 8.721904031582,
+          "charge_residual_mol_L": 6.938893903907228e-18,
+          "mass_residual_mol_L": 0.0
+        },
+        {
+          "volume_added_ml": 50.1,
+          "total_volume_ml": 100.1,
+          "concentrations_mol_L": {
+            "H+": 9.982310588691387e-11,
+            "OH-": 0.00010017720758286817,
+            "HA": 2.770078596364689e-07,
+            "A-": 0.049949772942190315,
+            "base_cation": 0.05004995004995006
+          },
+          "ph": 10.000768921661205,
+          "charge_residual_mol_L": -1.3877787807814457e-17,
+          "mass_residual_mol_L": 0.0
+        },
+        {
+          "volume_added_ml": 51.0,
+          "total_volume_ml": 101.0,
+          "concentrations_mol_L": {
+            "H+": 1.0099716551931323e-11,
+            "OH-": 0.000990126796983005,
+            "HA": 2.7776982630678404e-08,
+            "A-": 0.04950492271806688,
+            "base_cation": 0.0504950495049505
+          },
+          "ph": 10.995690814500477,
+          "charge_residual_mol_L": 3.3306690738754696e-16,
+          "mass_residual_mol_L": 0.0
+        },
+        {
+          "volume_added_ml": 60.0,
+          "total_volume_ml": 110.0,
+          "concentrations_mol_L": {
+            "H+": 1.0999996637558154e-12,
+            "OH-": 0.009090911869787499,
+            "HA": 2.777776751672345e-09,
+            "A-": 0.045454542676768704,
+            "base_cation": 0.05454545454545454
+          },
+          "ph": 11.958607447595426,
+          "charge_residual_mol_L": -1.6583956430338276e-15,
+          "mass_residual_mol_L": 0.0
+        },
+        {
+          "volume_added_ml": 75.0,
+          "total_volume_ml": 125.0,
+          "concentrations_mol_L": {
+            "H+": 4.999999722096555e-13,
+            "OH-": 0.02000000111161384,
+            "HA": 1.1111110156947213e-09,
+            "A-": 0.039999998888888985,
+            "base_cation": 0.06
+          },
+          "ph": 12.301030019802369,
+          "charge_residual_mol_L": -2.824129818890242e-15,
+          "mass_residual_mol_L": 0.0
+        },
+        {
+          "volume_added_ml": 100.0,
+          "total_volume_ml": 150.0,
+          "concentrations_mol_L": {
+            "H+": 2.9999999499734927e-13,
+            "OH-": 0.03333333388918342,
+            "HA": 5.555555390723832e-10,
+            "A-": 0.033333332777777794,
+            "base_cation": 0.06666666666666667
+          },
+          "ph": 12.522878752522416,
+          "charge_residual_mol_L": 5.440092820663267e-15,
+          "mass_residual_mol_L": 0.0
+        }
+      ]
+    },
+    {
+      "name": "formic-acid-koh",
+      "acid_volume_ml": 25.0,
+      "acid_concentration_mol_L": 0.05,
+      "ka": 0.00018,
+      "pka": 3.744727494896694,
+      "base_concentration_mol_L": 0.1,
+      "equivalence_volume_ml": 12.5,
+      "points": [
+        {
+          "volume_added_ml": 0.0,
+          "total_volume_ml": 25.0,
+          "concentrations_mol_L": {
+            "H+": 0.0029113496981543335,
+            "OH-": 3.4348329938995498e-12,
+            "HA": 0.04708865030527819,
+            "A-": 0.002911349694721817,
+            "base_cation": 0.0
+          },
+          "ph": 2.535905625939648,
+          "charge_residual_mol_L": -2.316723202167026e-15,
+          "mass_residual_mol_L": 0.0
+        },
+        {
+          "volume_added_ml": 6.25,
+          "total_volume_ml": 31.25,
+          "concentrations_mol_L": {
+            "H+": 0.00017684469640886745,
+            "OH-": 5.654679050639923e-11,
+            "HA": 0.019823155360139233,
+            "A-": 0.020176844639860768,
+            "base_cation": 0.02
+          },
+          "ph": 3.7524079601913343,
+          "charge_residual_mol_L": 1.3079815008865125e-15,
+          "mass_residual_mol_L": 0.0
+        },
+        {
+          "volume_added_ml": 12.5,
+          "total_volume_ml": 37.5,
+          "concentrations_mol_L": {
+            "H+": 7.3288567515468266e-09,
+            "OH-": 1.3644692943260766e-06,
+            "HA": 1.3571404375786744e-06,
+            "A-": 0.033331976192895754,
+            "base_cation": 0.03333333333333333
+          },
+          "ph": 8.134963766862057,
+          "charge_residual_mol_L": 0.0,
+          "mass_residual_mol_L": 0.0
+        },
+        {
+          "volume_added_ml": 18.75,
+          "total_volume_ml": 43.75,
+          "concentrations_mol_L": {
+            "H+": 6.999999945211128e-13,
+            "OH-": 0.01428571439752831,
+            "HA": 1.1111110989614481e-10,
+            "A-": 0.02857142846031746,
+            "base_cation": 0.04285714285714286
+          },
+          "ph": 12.154901963384958,
+          "charge_residual_mol_L": -2.9073965457371287e-15,
+          "mass_residual_mol_L": 0.0
+        },
+        {
+          "volume_added_ml": 25.0,
+          "total_volume_ml": 50.0,
+          "concentrations_mol_L": {
+            "H+": 3.999999991048129e-13,
+            "OH-": 0.025000000055949195,
+            "HA": 5.555555668279588e-11,
+            "A-": 0.024999999944444445,
+            "base_cation": 0.05
+          },
+          "ph": 12.397940009643975,
+          "charge_residual_mol_L": 6.3629657098829284e-15,
+          "mass_residual_mol_L": 0.0
+        }
+      ]
+    }
+  ],
+  "failures": []
+}
